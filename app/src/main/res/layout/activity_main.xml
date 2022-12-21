@@ -9,6 +9,7 @@
             name="welcome"
             type="String" />
     </data>
+    <!--    Should user ConstraintLayout layout to complex layout structure-->
     
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

@@ -18,18 +18,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
             
+            
+            <!--we should use linearlayout with vertical orientation to act as list container
+                            to add shoe items on it-->
             <LinearLayout
+                android:id="@+id/shoe_list_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                
-                <LinearLayout
-                    android:id="@+id/shoe_list_container"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    
-                </LinearLayout>
+            
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
         
